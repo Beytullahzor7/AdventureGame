@@ -59,8 +59,8 @@ public class Game {
             }
             if(!location.onLocation()){
                 System.out.println("GAME OVER!!!");
+                break;
             }
         }
-
     }
 }
