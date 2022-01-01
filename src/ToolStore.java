@@ -43,7 +43,7 @@ public class ToolStore extends NormalLoc{
         for(Weapon w : Weapon.weapons()){
             System.out.println(w.getId() + "-" +w.getName()+ " <Para : "+ w.getPrice() + " ,Hasar : " + w.getDamage()+ ">");
         }
-        System.out.println("0 - Çıkış Yap ");
+        System.out.println("0- Çıkış Yap ");
     }
 
     public void buyWeapon(){

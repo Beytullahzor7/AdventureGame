@@ -10,8 +10,8 @@ public class Game {
 
         Player player = new Player("Ali");
         System.out.println(player.getName() + " hosgeldiniz.");
-
         System.out.println("Lütfen bir karakter seciniz: ");
+        System.out.println("-----------------------------");
         player.selectChar();
 
         Location location = null;

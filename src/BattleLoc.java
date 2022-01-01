@@ -21,7 +21,6 @@ public class BattleLoc extends Location{
         System.out.println("<S>avas veya <K>ac : ");
         String selectCase = input.nextLine().toUpperCase();
         if(selectCase.equals("S") && combat(obsNumber)){
-            System.out.println("Savaş Başlıyor...");
             System.out.println(this.getName() + " tüm düşmanları yendiniz.");
             return true;
         }
